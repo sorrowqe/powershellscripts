@@ -1,5 +1,5 @@
 # Ask the user for their name using Read-Host
-$name = Read-Host -Prompt "What is your name"
+$name = Read-Host -Prompt "Mis on teie nimi?"
 
 # Display the answer in Green color using Write-Host
-Write-Host "Hello, $name!" -ForegroundColor Green
+Write-Host "Tere, $name!" -ForegroundColor Green
