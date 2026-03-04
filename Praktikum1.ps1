@@ -2,7 +2,7 @@
 if($args.Count -ne 3) {
     #kui edastatud parameetrite arv ei ole 3
     #siis trukime kasutusjuhend
-    echo '.\SkriptiNimi kasutajanimi "Ees Perenimi" "Konto kirjeldus"'
+    Write-Host '.\SkriptiNimi kasutajanimi "Ees Perenimi" "Konto kirjeldus"'
 } else {
     #defineerime muutujad argumentide andmete salvestamiseks
     $Kasutajanimi = $args[0]
